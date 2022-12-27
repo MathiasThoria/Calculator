@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    background-color: rgb(244, 238, 233);
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+.conteinerAll{
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-color:rgb(249, 205, 205);
+    border-radius:12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 10px pink;
+}
+.screen{
+    font-family: 'Roboto';
+    font-size: 30px;
+    
+}
+.conteinerScreen{
+    display:flex;
+    align-items:flex-end;    
+    justify-content: right;
+    width: 500px;
+    height: 40px;
+    border-style: solid;
+    border-color:rgb(251, 223, 223);
+    border-radius:12px;
+    padding: 12px;
+    box-shadow: 0px 1px 10px pink;
+}
+.conteinerButtons{
+    border-style: solid;
+    border-color:rgb(244, 221, 221);
+    border-radius:12px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 10px pink;
+}
+.conteinerButtons, .conteinerNumbers,
+ .conteinerSymbols{
+    /*border-style: solid;
+    border-color:rgb(249, 205, 205);
+    border-radius:12px;*/
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+}
+
+button{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color:rgb(34, 31, 27);
+    background-color: wheat;
+    border-width: 0px;
+    border-radius: 18px;
+    width: 60px;
+    height: 60px;     
+}
+
+
+.conteinerNumbers{
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    padding:10px;
+    
+    border-radius: 12px;
+}
+
+.conteinerSymbols{
+    width: 150px;
+    height: 400px;
+    gap: 30px;
+    padding:10px;
+}
